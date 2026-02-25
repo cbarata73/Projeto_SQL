@@ -33,3 +33,6 @@ CREATE TABLE Dependentes (
 
 INSERT INTO Departamentos (id, nome, orcamento) 
 VALUES  (1, "Recursos Humanos", 50000.00), (2, "Tecnologia da Informação", 100000.00);
+
+insert Into Departamentos(id, nome, orcamento)
+Values (2, "Financeiro", 100000);
